@@ -1,0 +1,4 @@
+(ns jedi.db)
+
+(def default-db
+  {:name "re-frame"})
