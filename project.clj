@@ -2,6 +2,8 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "1.7.228"]
                  [reagent "0.5.1"]
+                 [jarohen/chord "0.7.0"]
+                 [cljs-ajax "0.5.5"]
                  [re-frame "0.7.0"]]
 
   :min-lein-version "2.5.3"
