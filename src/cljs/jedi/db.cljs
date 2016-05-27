@@ -1,4 +1,6 @@
 (ns jedi.db)
 
 (def default-db
-  {:name "re-frame"})
+  {:jedis []})
+
+(def add-jedi)
