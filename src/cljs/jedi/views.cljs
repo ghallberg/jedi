@@ -15,9 +15,9 @@
       (while true
         (let [{planet-info :message, retrieve-error :error}
               (<! planet-channel)]
-        (if-not retrieve-error
-          (reset! planet planet-info)
-          (js/console.log "Uh oh error retrieving:" retrieve-error))))
+          (if-not retrieve-error
+            (reset! planet planet-info)
+            (js/console.log "Uh oh error retrieving:" retrieve-error))))
       (js/console.log "Uh oh error starting:" channel-error))))
 
 (def jedi-slot [jedi]
